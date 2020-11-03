@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Authentication;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,7 +12,7 @@ namespace NoSQL.Access
     {
         public static MongoClient AccessDb()
         {
-            string connectionString = Constants.MINOS_MONGO_DB;
+            string connectionString = "mongodb://localhost:27017/?readPreference=primary&appname=MongoDB%20Compass&ssl=false";
 
             MongoClientSettings settings = MongoClientSettings.FromUrl(
                 new MongoUrl(connectionString)
