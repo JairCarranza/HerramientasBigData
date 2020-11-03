@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30309.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HerramientasBigData", "HerramientasBigData\HerramientasBigData.csproj", "{FC708FBB-8167-4369-994E-970984D4CF28}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoSQL", "NoSQL\NoSQL.csproj", "{534E09D6-F488-4C2E-88C0-D78471511099}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{FC708FBB-8167-4369-994E-970984D4CF28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC708FBB-8167-4369-994E-970984D4CF28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC708FBB-8167-4369-994E-970984D4CF28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{534E09D6-F488-4C2E-88C0-D78471511099}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{534E09D6-F488-4C2E-88C0-D78471511099}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{534E09D6-F488-4C2E-88C0-D78471511099}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{534E09D6-F488-4C2E-88C0-D78471511099}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
